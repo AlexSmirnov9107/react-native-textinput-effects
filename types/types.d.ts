@@ -69,6 +69,7 @@ declare module "react-native-textinput-effects" {
   export interface HoshiProps extends CommonProps {
     maskColor?: string;
     borderColor?: string;
+    activeColor?: string;
   }
 
   class Hoshi extends BaseClass<HoshiProps> {}
