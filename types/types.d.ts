@@ -66,6 +66,12 @@ declare module "react-native-textinput-effects" {
 
   class Hideo extends BaseClass<HideoProps> {}
 
+  export interface MaterialProps extends CommonProps {
+    borderColor: string;
+    activeBorderColor: string;
+  }
+  class Material extends BaseClass<Material> {}
+
   export interface HoshiProps extends CommonProps {
     maskColor?: string;
     borderColor?: string;
@@ -136,5 +142,6 @@ declare module "react-native-textinput-effects" {
     | KohanaProps
     | MadokaProps
     | MakikoProps
+    | MaterialProps
     | SaeProps;
 }
