@@ -31,6 +31,7 @@ declare module "react-native-textinput-effects" {
     animationDuration?: number;
     editable?: boolean;
     height?: number;
+    useNativeDriver?: boolean;
 
     /* those are TextInput props which are overridden
      * so, i'm calling them manually
