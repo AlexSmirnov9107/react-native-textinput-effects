@@ -70,6 +70,7 @@ declare module "react-native-textinput-effects" {
   export interface MaterialProps extends CommonProps {
     borderColor?: string;
     activeBorderColor?: string;
+    labelContainerStyle?: ViewStyle;
   }
   class Material extends BaseClass<MaterialProps> {}
 
