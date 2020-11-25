@@ -72,6 +72,7 @@ declare module "react-native-textinput-effects" {
     borderColor?: string;
     activeBorderColor?: string;
     labelContainerStyle?: ViewStyle;
+    activeLabelColor?: string;
   }
   class Material extends BaseClass<MaterialProps> {}
 
