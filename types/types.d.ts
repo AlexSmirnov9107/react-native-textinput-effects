@@ -51,6 +51,7 @@ declare module "react-native-textinput-effects" {
   export interface AkiraProps extends CommonProps {
     borderColor?: string;
     labelHeight?: number;
+    borderWidth?: number;
   }
 
   class Akira extends BaseClass<AkiraProps> {}
